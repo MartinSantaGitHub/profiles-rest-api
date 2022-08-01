@@ -1,2 +1,3 @@
-# profiles-rest-api
-An App to manage profiles
+# Profiles REST API
+
+Profiles REST API course code.

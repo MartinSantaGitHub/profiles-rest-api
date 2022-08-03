@@ -27,6 +27,8 @@ services:
   db:
     container_name: "db_container"
     image: postgres:13-alpine
+    ports:
+      - "5434:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
     env_file:
